@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(80, 112, 128);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(37, 66, 78);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 66, 78);
+    padding: 5;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(134, 171, 211);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: rgb(37, 66, 78);
+    color: rgb(106, 146, 163);
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reduzindo o tamanho mínimo para 150px */
+    grid-gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
+}
+.container figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Adicionando borda arredondada */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
