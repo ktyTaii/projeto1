@@ -1,13 +1,12 @@
 body {
-    background-color: rgb(56, 105, 73);
+    background-color: rgb(80, 112, 128);
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: rgb(9, 51, 30)e;
-    text-align: center;
-    color: rgb(8, 61, 8);
+    background-color: rgb(37, 66, 78);
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -21,7 +20,7 @@ main {
 section {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
-    background-color: rgb(6, 46, 30);
+    background-color: rgb(37, 66, 78);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 6px 8px rgba(0,0,0,0.3);
